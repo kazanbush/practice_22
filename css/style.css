@@ -1,0 +1,82 @@
+
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: auto;
+}
+
+html, body {
+height: 100%;
+}
+
+.wrapper {
+height: 100%;
+width: 100%;
+}
+
+.chair {
+background: url(../img/Практическая\ работа\ №22imgRectangle\ 12.png) no-repeat;
+height: 264px;
+width: 357px;
+position: relative;
+background-size: cover;
+}
+
+.sale {
+background-color: skyblue;
+position: absolute;
+color: white;
+font-size: 14px;
+top: 10px;
+left: 10px;
+}
+
+.text {
+padding-left: 13px;
+padding-right: 13px;
+}
+
+.name {
+position: absolute;
+background-color: rgba(135, 207, 235, 0.699);
+font-size: 20px;
+width: 100%;
+top: 200px;
+}
+
+.text2 {
+top: 19px;
+bottom: 19px;
+left: 20px;
+right: 20px;
+color: white;
+}
+
+.room {
+background: url(../img/room.png) no-repeat;
+background-size: cover;
+width: 800px;
+height:223px;
+position: relative;
+top: 300px;
+margin: 0;
+}
+
+.play {
+background: url(../img/play.png) no-repeat;
+background-size: cover;
+position: absolute;
+top: 70px;
+left: 350px;
+width: 62px;
+height: 62px;
+}
+
+.overlay {
+width: 100%;
+background-color: rgba(0, 0, 0, 0.541);
+position: absolute;
+height: 100%;
+}
